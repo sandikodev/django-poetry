@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "basic-django"
+version = "0.1.0"
+description = ""
+authors = ["sandikodev <androxoss@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "basic_django"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
